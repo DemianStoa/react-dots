@@ -1,0 +1,38 @@
+.game{
+  flex-direction: column;
+  width: 100%;
+  height: 98vh;
+  background-color: hsl(0, 50%, 95%)
+}
+
+.control{
+display: flex;
+justify-content: center;
+}
+
+button {
+  width: 10rem;
+  height: 2rem;
+  border-radius: 5px;
+  margin: 2rem;
+  color:blue;
+  font-weight: 700;
+}
+
+.board{
+  background-color: hsl(71, 94%, 82%);
+  border: 2px dashed hsl(0, 79%, 38%);
+  border-radius: 5%;
+  position: relative;
+  margin: 1rem;
+  height: 60vh;
+  
+}
+
+.dot{
+  position: absolute;
+  width: 1rem;
+  height: 1rem;
+  background-color: black;
+  border-radius: 50%;
+}
